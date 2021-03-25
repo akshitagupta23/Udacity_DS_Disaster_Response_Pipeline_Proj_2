@@ -1,16 +1,16 @@
 # Disaster Response Pipeline Project
-This Machine Learning project is also part of a Nanodegree in Data Science at Udacity.
+This Machine Learning project is part of a Nanodegree in Data Science at Udacity.
 
 #### Business Problem:
 - To classify disaster labeled data from `Figure Eight` which were sent during disasters.
-- Classification of these messages, allows these messages to be sent to disaster relief agency using an web app. 
+- Classification of these messages allows them to be sent to disaster relief agency using an web app. 
 
 #### Data and Methodology
 Data set consists of 36 pre-defined categories and messages in `categories.csv` and `messages.csv` respectively. 
 Methodology of building the `web app` involved following steps:
 - ETL pipeline that cleans the data and  store in Database
-- Machine Learning pipeline that builds features using NLP techniques and Multiclassifier Algorithm for training. Optimization of Algorithm was performed using `GridSearchCV`
-- Web application build using html templates and `flask` api was used to get prediction of new messages and to visualize training data insights.
+- Machine Learning pipeline that builds features using NLP techniques and Multiclassifier Algorithm for training and Optimization of Algorithm was performed using `GridSearchCV`
+- Web application was build using html templates and `flask` api. It was used to get prediction of new messages and to visualize training data insights.
 
 
 #### Project Structure
